@@ -1,3 +1,10 @@
-![Screenshot_20230709_163140](https://github.com/ShantanuAhuja/QuizGame/assets/82901646/99f04d2f-7d12-443f-8d57-10fb3c53e976|width=10%|height=10)
-
-
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163140.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163145.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163151.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163156.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163204.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163252.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163257.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163304.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163310.jpg" width="200" height="400" />
+<img src="https://github.com/ShantanuAhuja/QuizGame/blob/master/images/Screenshot_20230709_163315.jpg" width="200" height="400" />

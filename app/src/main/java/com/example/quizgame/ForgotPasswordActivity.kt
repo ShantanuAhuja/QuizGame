@@ -15,6 +15,7 @@ class ForgotPasswordActivity : AppCompatActivity() {
         forgotPasswordActivityBinding=ActivityForgotPasswordBinding.inflate(layoutInflater)
         val view=forgotPasswordActivityBinding.root
         setContentView(view)
+        title = "Forget Password";
         forgotPasswordActivityBinding.buttonForgotPassword.setOnClickListener {
             val email=forgotPasswordActivityBinding.editTextForgotEmail.text.toString()
             startForgotPasswordProcedure(email)

@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         mainActivityBinding= ActivityMainBinding.inflate(layoutInflater)
         val view=mainActivityBinding.root
         setContentView(view)
-
+        title = "Quiz Game";
         //adding options in spinner view
         val categories: MutableList<String> = ArrayList()
         categories.add("Easy")

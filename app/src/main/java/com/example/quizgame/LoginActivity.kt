@@ -36,7 +36,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         loginActivityBinding=ActivityLoginBinding.inflate(layoutInflater)
         setContentView(loginActivityBinding.root)
-
+        title = "Sign In";
         // Modifying Google SignIn Button
         val textOfGoogleButton=loginActivityBinding.buttonGoogleSignIn.getChildAt(0) as TextView
         textOfGoogleButton.text="Continue With Google"

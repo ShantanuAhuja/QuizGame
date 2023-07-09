@@ -24,6 +24,7 @@ class ResultActivity : AppCompatActivity() {
         resultBinding=ActivityResultBinding.inflate(layoutInflater)
         val view=resultBinding.root
         setContentView(view)
+        title = " Game Results";
         difficultyLevel= intent.getStringExtra("DifficultyLevel").toString()
 
         databaseReference.addValueEventListener(object:ValueEventListener{

@@ -46,6 +46,7 @@ class QuizActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        title = "Game Started";
         set= HashSet<Int>()
         quizActivityBinding=ActivityQuizBinding.inflate(layoutInflater)
         val view=quizActivityBinding.root

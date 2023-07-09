@@ -32,7 +32,7 @@ class AddQuestionsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         addQuestionsActivityBinding= ActivityAddQuestionsBinding.inflate(layoutInflater)
         setContentView(addQuestionsActivityBinding.root)
-
+        title = "Add Questions";
         // Spinner view for difficulty level
         val categories: MutableList<String> = ArrayList()
         categories.add("Easy")

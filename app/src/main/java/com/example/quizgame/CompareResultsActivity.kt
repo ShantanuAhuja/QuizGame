@@ -22,6 +22,7 @@ class CompareResultsActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         compareResultsActivityBinding=ActivityCompareResultsBinding.inflate(layoutInflater)
         setContentView(compareResultsActivityBinding.root)
+        title = "Compare Results";
         difficultyLevel= intent.getStringExtra("DifficultyLevel").toString()
         getAllScores()
     }

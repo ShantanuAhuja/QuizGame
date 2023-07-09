@@ -21,6 +21,7 @@ class SignupActivity : AppCompatActivity() {
         signUpActivityBinding=ActivitySignupBinding.inflate(layoutInflater)
         val view=signUpActivityBinding.root
         setContentView(view)
+        title = "Sign Up";
 
         signUpActivityBinding.buttonSignUp.setOnClickListener {
             val email=signUpActivityBinding.editTextSignUpEmail.text.toString()

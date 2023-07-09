@@ -11,12 +11,12 @@
         android:id="@+id/buttonSignOut"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="135dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="60dp"
         android:layout_marginEnd="145dp"
         android:layout_marginBottom="56dp"
         android:text="SIGN OUT"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -35,6 +35,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/game_start" />
 
+
     <Button
         android:id="@+id/buttonStartQuiz"
         android:layout_width="250dp"
@@ -44,7 +45,7 @@
         android:layout_marginEnd="170dp"
         android:layout_marginBottom="50dp"
         android:text="START QUIZ"
-        android:textSize="18sp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonSignOut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
@@ -56,14 +57,47 @@
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="50dp"
         android:layout_marginEnd="80dp"
         android:layout_marginBottom="20dp"
         android:text="Add Questions"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/buttonSignOut"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonStartQuiz" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/buttonAddQuestions"
+        app:layout_constraintTop_toBottomOf="@+id/buttonStartQuiz"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp">
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/black" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/black" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="@color/black" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textViewdifficultyLevel"
@@ -73,7 +107,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="14dp"
         android:layout_marginBottom="22dp"
-        android:background="@color/black"
+        android:background="@color/orange"
         android:gravity="center"
         android:text="Difficulty"
         android:textColor="@color/white"
@@ -93,6 +127,7 @@
         android:background="@color/orange"
         android:gravity="center"
         android:prompt="@string/spinner_title"
+        android:spinnerMode="dropdown"
         app:layout_constraintBottom_toTopOf="@+id/buttonStartQuiz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textViewdifficultyLevel"

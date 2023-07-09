@@ -1,1 +1,3 @@
-  ![Screenshot_20230709_163140](https://github.com/ShantanuAhuja/QuizGame/assets/82901646/8c7ca351-e307-42e4-b99c-dd51d7c7a3e9)
+![Screenshot_20230709_163140](https://github.com/ShantanuAhuja/QuizGame/assets/82901646/99f04d2f-7d12-443f-8d57-10fb3c53e976|width=10%|height=10)
+
+
